@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <title>
+        Welcome To XPO Logistics
+    </title>
+    <link rel="icon" href="logon1.png">
+    <head>
+        <center>
+            <img src="logon.png" alt="XPO Logistics" height="75px" >
+        </center>
+    </head>
+    <body background="background.jpg">
+        <form action="sign in.html" method="get">
+        <fieldset > 
+            <center>
+                <h3>Sign Up</h3>
+            <table >
+            <tr>
+                <td>First Name *: </td>
+                <td><input type="text" id="First Name" name="First Name" autocomplete="on" required></td>
+            </tr>
+            <tr>
+                <td>Last Name *: </td>
+                <td><input type="text" id="Last Name" name="Last Name" autocomplete="on" required></td>
+            </tr>
+            <tr>
+                <td>Password *:</td>
+                <td><input type="password" max="8" placeholder="Password" required></td>
+            </tr>
+            <tr>
+                <td>Age *:</td>
+                <td><input type="number" min="15" max="99" pattern="[0-9]{2}" placeholder="15-99" required></td>
+            </tr>
+            <tr>
+                <td>Date of Birth *:</td>
+                <td><input type="date" id="DOB" name="DOB" required></td>
+            </tr>
+            <tr>
+                <td>Gender *:</td>
+                <td>
+                    <select id="Gender" name="Gender">
+                      <option value="Male">Male</option>
+                      <option value="Female">Female</option>
+                      <option value="Other">Other</option>
+                      </option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td>Enter Email Id *:</td>
+                <td><input type="email" id="email" name="email" autocomplete="on" required></td>
+            </tr>
+            <tr>
+                <td>Phone Number *:</td>
+                <td><input type="number" id="number" name="number" autocomplete="on" required></td>
+            </tr>
+            </table>
+            <br><br>
+            <input type="submit" value="Sign Up" onclick="alert('Sign Up Successful')">
+            <br><br>
+            <h4>Already a member, click <a href ="sign in.html">Sign In</a></h4>
+            <h4>If any problems persist, Contact<a href="mailto:martinsimon06532@gmail.com">@XPO Logistics</a></h4>
+            <center>                 
+        </fieldset>
+        </form>
+    </body>
+</html>
+<style>
+    body{
+        color: aliceblue;
+        font-size: x-large;
+    }
+    a{
+        color: rgb(255, 170, 170);
+    }
+</style>
